@@ -17,5 +17,7 @@ elif percentage >= 60 and percentage <= 69:
     print("Grade C")
 elif percentage >= 50 and percentage <= 59:
     print("Grade D")
-else:
+elif percentage < 50:
     print("Grade F")
+else:
+    print("Enter the right grade out of 100")
