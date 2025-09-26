@@ -9,7 +9,7 @@ for n in numbers:
         even_numbers.append(n)
 print("even_numbers", even_numbers)
 
-# create aa list for all odd numbers
+# create a list for all odd numbers
 
 odd_numbers = []
 for n in numbers:
@@ -21,5 +21,6 @@ div_num = []
 for n in numbers:
     if n % 3 == 0 and n % 5 == 0:
         div_num.append(n)
-print("divisble_numbers :",div_num)
+print("divisible_numbers :",div_num)
+
 
